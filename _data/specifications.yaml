@@ -1,9 +1,9 @@
-- TI Frequency range: DC - 100kHz
+- Frequency range: DC - 100kHz
 - Output voltage: ~30V (60V differential)
 - Output current: 10mA max differential (load capacitance compensation)
 - Battery - run time: ">6 hrs active time"
 - Charging: USB C
-- Number of channels per unit: 8 fully differential 1
+- Number of channels per unit: 8 fully differential (can be extended)
 - Trigger/Sync Output: external instrument and slave synchronization
 - Sample rate: 1Msps
 - Waveforms: sinusoid, phase modulation, frequency modulation, AWG
