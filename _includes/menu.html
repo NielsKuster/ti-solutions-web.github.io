@@ -6,8 +6,8 @@
     </div>
     <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
-            <li class="uk-visible@m"><a href="positions.html">Positions</a></li>
-            <li class="uk-visible@m"><a href="specifications.html">Specifications</a></li>
+            <li class="uk-visible@m"><a href="positions.html">Latest Jobs</a></li>
+            <li class="uk-visible@m"><a href="specifications.html">TI Device</a></li>
             <li><a href="#" uk-toggle="target: #offcanvas-reveal" uk-icon="icon: menu; ratio: 1.5"></a> </li>
         </ul>
     </div>
@@ -18,9 +18,7 @@ true">
 
         <button class="uk-offcanvas-close" type="button" uk-close></button>
 
-        <h3><a href="specifications.html">Specifications</a></h3>
-        <h3><a href="positions.html">Positions</a></h3>
-        <h3><a href="/">Topics</a></h3>
+          <h3><a href="/">Topics</a></h3>
         <ul class="uk-list">
             {% for topic in site.data.topics %}
             <li><a class="uk-link-text"
@@ -39,5 +37,7 @@ true">
                 uk-toggle="target: #offcanvas-reveal">{{ person.name }}</a></li>
             {% endfor %}
         </ul>
-    </div>
+    <h3><a href="specifications.html">Device</a></h3>
+        <h3><a href="positions.html">Latest Jobs</a></h3>
+      </div>
 </div>
